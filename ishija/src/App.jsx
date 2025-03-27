@@ -2,17 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
-
+import Navbar from '../src/components/ui/Navbar'
+// import Intro from './Intro'
+import BackgroundBoxesDemo from "./components/ui/Background-boxes-demo";
 function App() {
   
 
   return (
     <>
-    <div className='h-screen w-screen bg-red-800'>
-       <h1 className="text-9xl font-bold  text-white">
-      ISHIJA PRIYANSHA
-    </h1>
-    </div>
+    
+  <Navbar/>
+  {/* <Intro/> */}
+  <BackgroundBoxesDemo />
     </>
   )
 }

@@ -9,7 +9,7 @@ export default function BackgroundBoxesDemo() {
       {/* <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none"></div> */}
 
       <Boxes />
-      <h1 className={cn(" text-6xl text-white relative font-mono z-20")}>
+      <h1 className={cn(" text-6xl text-white relative font-mono z-20 mt-12")}>
         Hello, I am Ishija.
       </h1>
       <p className="text-center text-4xl mt-2 text-neutral-300 relative z-20">

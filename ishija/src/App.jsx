@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import Navbar from '../src/components/ui/Navbar'
 // import Intro from './Intro'
 import BackgroundBoxesDemo from "./components/ui/Background-boxes-demo";
+import About from './components/ui/About';
 function App() {
   
 
@@ -14,6 +15,7 @@ function App() {
   <Navbar/>
   {/* <Intro/> */}
   <BackgroundBoxesDemo />
+  <About/>
     </>
   )
 }

@@ -11,7 +11,7 @@ export default function BackgroundBoxesDemo() {
         }
     };
   return (
-    <div className="h-screen relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center px-4 text-center">
+    <div id="home" className=" h-screen relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center px-4 text-center">
     <Boxes />
 
     <h1 className={cn("text-4xl md:text-6xl text-white relative font-mono z-20 mt-8 sm:mt-12")}>

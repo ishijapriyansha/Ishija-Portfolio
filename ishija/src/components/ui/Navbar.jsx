@@ -12,7 +12,8 @@ export default function Navbar() {
           </div>
         <nav className="flex gap-x-6">
           <a className="text-black hover:text-gray-500 hover:underline transition " href="#home">home</a>
-          <a className="text-black hover:text-gray-500 transition hover:underline" href="#about">about</a>
+          <a className="text-black hover:text-gray-500 transition hover:underline " href="#about">about</a>
+          <a className="text-black hover:text-gray-500 transition hover:underline" href="#skills">skills</a>
           <a className="text-black hover:text-gray-500 transition hover:underline" href="#projects">projects</a>
           <a className="text-black hover:text-gray-500 transition hover:underline" href="#contact">contact</a>
           {/* <a className="text-black hover:text-gray-500 transition" href="#contact">Contact</a>

@@ -8,6 +8,7 @@ import BackgroundBoxesDemo from '../src/components/ui/Background-boxes-demo';
 import About from './components/ui/About';
 import Projects from './components/ui/Card-hover-demo';
 import { BrowserRouter } from 'react-router-dom';
+import Projects1 from './components/ui/Projects';
 function App() {
   
 
@@ -20,6 +21,7 @@ function App() {
   <BackgroundBoxesDemo />
   <About/>
   <Projects/>
+  <Projects1/>
     </BrowserRouter>
   )
 }

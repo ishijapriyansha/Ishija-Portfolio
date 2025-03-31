@@ -16,7 +16,7 @@ export const HoverEffect = ({ items, className }) => {
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-white dark:bg-white/[0.3] block rounded-xl z-1"
+                className="absolute inset-0 h-full w-full bg-white dark:bg-white/[0.4] block rounded-lg z-1"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { duration: 0.15 } }}
@@ -25,7 +25,7 @@ export const HoverEffect = ({ items, className }) => {
             )}
           </AnimatePresence>
           <Card>
-            <img src={item.image} alt={item.title} className="w-full h-40 object-cover rounded-xl" />
+            <img src={item.image} alt={item.title} className="w-full h-40 object-cover rounded-lg" />
             <CardTitle>{item.title}</CardTitle>
           </Card>
         </div>

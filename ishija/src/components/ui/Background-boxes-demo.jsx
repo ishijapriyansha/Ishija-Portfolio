@@ -18,7 +18,7 @@ export default function BackgroundBoxesDemo() {
       <h1 className={cn(" text-6xl text-white relative font-mono z-20 mt-12")}>
         Hello, I am Ishija.
       </h1>
-      <p className="text-center text-4xl mt-2 text-neutral-300 relative z-20">
+      <p className="text-center text-4xl mt-2 text-neutral-300 relative z-10">
         I am a full-stack web developer.
       </p>
       <button onClick={handleClick} className="relative font-mono mt-5 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500  dark:text-white focus:ring-4  
@@ -27,11 +27,6 @@ before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-f
     Know more about me!
   </span>
 </button>
-
-
-
-
-
     </div>
   );
 }

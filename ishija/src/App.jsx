@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 // import './App.css'
 import Navbar from '../src/components/ui/Navbar'
 // import Intro from './Intro'
-import BackgroundBoxesDemo from "./components/ui/Background-boxes-demo";
+import BackgroundBoxesDemo from '../src/components/ui/Background-boxes-demo';
 import About from './components/ui/About';
 import Projects from './components/ui/Card-hover-demo';
 import { BrowserRouter } from 'react-router-dom';

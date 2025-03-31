@@ -37,15 +37,15 @@ const items = [
 
 const Projects = () => {
   return (
-    <BackgroundLines >
-    <section id="projects" className="container mx-auto px-8 py-20 bg-gray-800">
+   
+    <section id="skills" className="container mx-auto px-8 !pt-40 pb-20 sm:pb-32 sm:pt-80 py-20 bg-gray-800 flex flex-col items-center ">
         
       {/* <h2 className="text-3xl font-bold text-white text-center mb-8">  */}
-        <TypewriterEffect words={[{text:"SKILLS"}]} className="!text-4xl text-gray-300 text-left ml-6 font-mono h-12 w-full " />
+        <TypewriterEffect words={[{text:"SKILLS"}]} className="!text-4xl text-gray-300 text-left font-mono h-12 w-full sm:text-4xl pl-24" />
         {/* </h2> */}
-      <HoverEffect items={items} />
+      <HoverEffect items={items} className={"max-w-5xl"}/>
     </section>
-    </BackgroundLines>
+    
   );
 };
 

@@ -9,6 +9,7 @@ import About from './components/ui/About';
 import Projects from './components/ui/Card-hover-demo';
 import { BrowserRouter } from 'react-router-dom';
 import Projects1 from './components/ui/Projects';
+import Footer from './components/ui/Footer';
 function App() {
   
 
@@ -22,6 +23,7 @@ function App() {
   <About/>
   <Projects/>
   <Projects1/>
+  <Footer/>
     </BrowserRouter>
   )
 }

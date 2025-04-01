@@ -26,7 +26,7 @@ export default function Navbar() {
           <a className="text-black hover:text-gray-500 hover:underline transition" href="#about">about</a>
           <a className="text-black hover:text-gray-500 hover:underline transition" href="#skills">skills</a>
           <a className="text-black hover:text-gray-500 hover:underline transition" href="#projects">projects</a>
-          <a className="text-black hover:text-gray-500 hover:underline transition" href="#contact">contact</a>
+          {/* <a className="text-black hover:text-gray-500 hover:underline transition" href="#contact">contact</a> */}
         </nav>
 
         {/* Mobile Hamburger Menu */}

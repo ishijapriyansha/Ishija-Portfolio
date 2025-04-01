@@ -48,12 +48,12 @@ export default function Projects() {
         quote: "A platform that manages and simplifies library operations.",
         src: librarySnap,
       },
-      {
-        name: "Web-Scraper",
-        designation: "Beautiful Soup",
-        quote: "Description",
-        src: webscraperSnap,
-      },
+      // {
+      //   name: "Web-Scraper",
+      //   designation: "Beautiful Soup",
+      //   quote: "Description",
+      //   src: webscraperSnap,
+      // },
       {
         name: "Translator",
         designation: "Django, googleTrans",

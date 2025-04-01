@@ -35,14 +35,14 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
 
   const renderWords = () => {
     return (
-      <motion.div ref={scope} className="inline-block">
+      <motion.div ref={scope} className="inline-block ">
         {wordsArray.map((word, idx) => (
           <div key={`word-${idx}`} className="inline-block">
             {word.text.map((char, index) => (
               <motion.span
                 key={`char-${index}`}
                 className={cn(
-                  `dark:text-white text-black opacity-0 hidden`,
+                  `text-white opacity-0 hidden`,
                   word.className
                 )}
               >
@@ -61,7 +61,7 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
       className={cn(
-        "text-base sm:text-xl md:text-3xl lg:text-5xl font-mono text-center",
+        "text-base sm:text-xl md:text-3xl lg:text-5xl font-mono ",
         className
       )}
     >

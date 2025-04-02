@@ -70,7 +70,7 @@ export default function Projects() {
 
  
   return (
-    <section id="projects" className="py-20 px-4 md:px-12 bg-gray-50 dark:bg-gray-800">
+    <section id="projects" className="py-20 px-4 md:px-12 bg-gray-800">
          <TypewriterEffect words={[{text:"PROJECTS"}]} className="!text-4xl text-gray-300 text-left font-mono h-12 w-full sm:text-4xl pl-24" />
       <AnimatedTestimonials testimonials={projects} autoplay={false} />
     </section>

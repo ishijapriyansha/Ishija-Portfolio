@@ -34,7 +34,7 @@ export const AnimatedTestimonials = ({
   return (
     <div
       className="mx-auto max-w-full px-8 py-28 font-mono antialiased md:px-16 lg:px-24 relative z-0" > 
-      <div className="relative grid grid-cols-1 gap-40 md:grid-cols-2">
+      <div className="relative grid grid-cols-1 gap-40 lg:grid-cols-2 ">
         <div>
           <div className="relative h-[400px] w-[120%]"> 
             <AnimatePresence>
@@ -68,7 +68,7 @@ export const AnimatedTestimonials = ({
                     ease: "easeInOut",
                   }}
                   className="absolute inset-0 origin-bottom">
-                 <img src={testimonial.src} alt={testimonial.name} className="h-full w-full rounded-3xl object-cover object-center" />
+                 <img src={testimonial.src} alt={testimonial.name} className="h-full lg:w-full rounded-3xl object-cover object-center md:w-2/3 sm:w-2/3 xs:w-1/4 xs:h-2/3 xs:" />
                 </motion.div>
               ))}
             </AnimatePresence>

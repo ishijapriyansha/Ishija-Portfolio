@@ -38,13 +38,13 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full bg-gray-900 flex flex-col items-center py-20 sm:pt-80 sm:pb-32"
+      className="w-full bg-gray-900 flex flex-col items-center py-20 sm:pt-36 sm:pb-32"
     >
        <TypewriterEffect words={[{text:"SKILLS"}]} className="!text-4xl text-gray-300 text-left font-mono h-12 w-full sm:text-4xl pl-24" />
       <div className="w-full px-4 sm:px-8">
         <HoverEffect
           items={items}
-          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6"
+          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 lg:p-12" 
         />
       </div>
     </section>

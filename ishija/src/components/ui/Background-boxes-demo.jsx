@@ -19,24 +19,24 @@ export default function BackgroundBoxesDemo() {
     >
       <Boxes />
 
-      {/* Heading from Left */}
+     
       <motion.h1
-        initial={{ opacity: 0, x: -100 }} // Starts off-screen left
-        animate={{ opacity: 1, x: 0 }} // Moves to center
+        initial={{ opacity: 0, x: -100 }} 
+        animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         className={cn(
-          "text-4xl md:text-6xl text-white relative font-mono z-20 mt-8 sm:mt-12"
+          "text-4xl md:text-6xl text-white relative font-mono z-20 mt-8 sm:mt-12 "
         )}
       >
         Hello, I am Ishija.
       </motion.h1>
 
-      {/* Subtext from Right */}
+      
       <motion.p
-        initial={{ opacity: 0, x: 100 }} // Starts off-screen right
-        animate={{ opacity: 1, x: 0 }} // Moves to center
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }} 
         transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
-        className="text-lg sm:text-2xl md:text-3xl mt-2 text-neutral-300 relative z-10"
+        className="text-lg sm:text-2xl md:text-3xl mt-2 text-neutral-300 relative z-10 font-mono"
       >
         I am a full-stack web developer.
       </motion.p>

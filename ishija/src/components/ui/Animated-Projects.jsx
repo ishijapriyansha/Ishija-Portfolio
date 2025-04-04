@@ -68,7 +68,7 @@ export const AnimatedTestimonials = ({
                     ease: "easeInOut",
                   }}
                   className="absolute inset-0 origin-bottom">
-                 <img src={testimonial.src} alt={testimonial.name} className="h-full lg:w-full rounded-3xl object-cover object-center md:w-2/3 sm:w-2/3 xs:w-1/4 xs:h-2/3 xs:" />
+                 <img src={testimonial.src} alt={testimonial.name} className="h-full lg:w-full rounded-3xl object-cover object-center md:w-2/3 sm:w-2/3 xs:w-1/4 xs:h-2/3 " />
                 </motion.div>
               ))}
             </AnimatePresence>

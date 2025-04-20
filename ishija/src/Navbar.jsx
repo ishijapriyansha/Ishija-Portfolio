@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     
 
-<nav class="bg-white border-black border-b-4 dark:bg-red-700">
+<nav class="bg-white border-black border-solid dark:bg-red-700">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   {/* <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />

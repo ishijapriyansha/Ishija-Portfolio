@@ -12,9 +12,9 @@ const About = () => {
 
     return (
         <>
-            <div id="about" className=" xs:pt-12  md:pt-36 px-8 pb-12 bg-gray-800 h-screen sm:flex-col sm:items-center md:items-center sm:gap-8 md:gap-8" >
+            <div id="about" className=" pt-10 pb-12 md:pt-36 px-8 bg-gray-800 h-screen sm:flex-col sm:items-center md:items-center sm:gap-8 md:gap-8" >
                 <div className="flex float-left w-full md:w-1/2">
-                    <img src={image} alt="Profile" className=" w-1/3 h-1/3 rounded-lg sm:w-80 sm:h-80 md:w-96 md:h-96" />
+                    <img src={image} alt="Profile" className=" w-1/3 h-1/3 rounded-lg sm:w-80 sm:h-80 md:w-96 md:h-96 pb-6" />
                 </div>
                 <div className="aboutPlusdesc ">
                 <div className="w-full md:w-1/2 flex ">

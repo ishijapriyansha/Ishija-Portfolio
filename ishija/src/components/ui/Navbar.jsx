@@ -8,9 +8,9 @@ export default function Navbar() {
 
   return (
     <div className="flex flex-col w-full">
-      <header className="bg-white font-bold text-lg border-b border-black fixed top-0 left-0 w-full text-black p-4 flex justify-between items-center z-20 shadow-md">
+      <header className="bg-white font-bold text-lg border-b border-black fixed top-0 left-0 w-full text-black p-4 flex justify-between items-center z-30 shadow-md">
         
-        {/* Left Side (Logo & Icons) */}
+
         <div className="flex items-center gap-x-4 ml-2">
           <a href="https://github.com/ishijapriyansha" target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} className="h-8 hover:opacity-70" alt="GitHub" />
@@ -20,19 +20,18 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* Desktop Navigation */}
+  
         <nav className="hidden md:flex gap-x-6">
           <a className="text-black hover:text-gray-500 hover:underline transition" href="#home">home</a>
           <a className="text-black hover:text-gray-500 hover:underline transition" href="#about">about</a>
           <a className="text-black hover:text-gray-500 hover:underline transition" href="#skills">skills</a>
           <a className="text-black hover:text-gray-500 hover:underline transition" href="#projects">projects</a>
-          {/* <a className="text-black hover:text-gray-500 hover:underline transition" href="#contact">contact</a> */}
         </nav>
 
-        {/* Mobile Hamburger Menu */}
+  
         <button 
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden focus:outline-none"
+          className="md:hidden focus:outline-none z-40"
         >
           <div className="w-6 h-0.5 bg-black mb-1"></div>
           <div className="w-6 h-0.5 bg-black mb-1"></div>
@@ -40,23 +39,25 @@ export default function Navbar() {
         </button>
       </header>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Mobile Menu */}
       <AnimatePresence>
-        {isOpen && (
-          <motion.div 
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            className="absolute top-14 left-0 w-full bg-white shadow-md flex flex-col items-center gap-4 p-4 md:hidden"
-          >
-            <a className="text-black hover:text-gray-500 transition" href="#home" onClick={() => setIsOpen(false)}>home</a>
-            <a className="text-black hover:text-gray-500 transition" href="#about" onClick={() => setIsOpen(false)}>about</a>
-            <a className="text-black hover:text-gray-500 transition" href="#skills" onClick={() => setIsOpen(false)}>skills</a>
-            <a className="text-black hover:text-gray-500 transition" href="#projects" onClick={() => setIsOpen(false)}>projects</a>
-            <a className="text-black hover:text-gray-500 transition" href="#contact" onClick={() => setIsOpen(false)}>contact</a>
-          </motion.div>
-        )}
-      </AnimatePresence>
+  {isOpen && (
+    <motion.div 
+      initial={{ opacity: 0, x: -20, scale: 0.95 }}
+      animate={{ opacity: 1, x: 0, scale: 1 }}
+      exit={{ opacity: 0, x: -20, scale: 0.95 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+      className="fixed top-16 right-0 w-32 bg-white rounded-xl shadow-lg flex flex-col items-start gap-3 p-4 md:hidden z-30 border border-gray-200"
+    >
+      <a className="text-black font-medium hover:text-gray-600 transition" href="#home" >Home</a>
+      <a className="text-black font-medium hover:text-gray-600 transition" href="#about" >About</a>
+      <a className="text-black font-medium hover:text-gray-600 transition" href="#skills" >Skills</a>
+      <a className="text-black font-medium hover:text-gray-600 transition" href="#projects" >Projects</a>
+      {/* <a className="text-black font-medium hover:text-gray-600 transition" href="#contact" >Contact</a> */}
+    </motion.div>
+  )}
+</AnimatePresence>
+
     </div>
   );
 }

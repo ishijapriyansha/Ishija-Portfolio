@@ -39,7 +39,7 @@ export default function Projects() {
     {
         name: "Password Manager",
         designation: "MongoDB, Django, Jinja templates",
-        quote: "Web app designed to securely store, manage, and evaluate the strength of passwords. Features a user-friendly interface and provides dynamic password strength feedback while maintaining the ability to view or hide stored passwords securely.",
+        quote: "Web app designed to securely store, manage, and evaluate the strength of passwords. ",
         src: passwordmanagerSnap,
       },
       {
@@ -57,7 +57,7 @@ export default function Projects() {
       {
         name: "Translator",
         designation: "Django, googleTrans",
-        quote: "Web app designed to make language translation quick and convenient. This platform lets users easily translate text between multiple languages, including Japanese, Spanish, French, and more.",
+        quote: "Web app designed to make language translation quick and convenient.",
         src: translatorSnap,
       },
       // {

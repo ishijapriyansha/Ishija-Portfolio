@@ -20,7 +20,7 @@ const About = () => {
                 <div className="w-full md:w-1/2 flex ">
                     <TypewriterEffect words={words} className="!text-4xl text-gray-300 font-mono h-12 w-screen flex  sm:text-4xl" />
                 </div>
-                <div className="intro-text text-gray-300 mt-4 !text-lg font-mono max-h-screen text-left">Hi! I’m Ishija Priyansha, a third-year student at DSCE, Bangalore, passionate about web development, especially the MERN stack. I’ve also explored Python frameworks like FastAPI and Django, and I’m diving into AI and ML. Outside of coding, I love reading (Murakami fans, say hi!), playing badminton, and getting lost in quirky subreddits like r/AskHistorians, r/ChairsUnderWater, and r/CatsWithJobs (because cats being more productive than us is hilarious). In short, I love building web solutions. </div>
+                <div className="intro-text text-gray-300 mt-4 !text-lg font-mono max-h-screen text-left">Hi! I’m Ishija Priyansha, a third-year student at DSCE, Bangalore, passionate about web development, especially the MERN stack. I’ve also explored Python frameworks like FastAPI and Django, and I’m diving into AI and ML. Outside of coding, I love reading (Murakami fans, say hi!), playing badminton, and getting lost in quirky subreddits like r/AskHistorians, r/ChairsUnderWater, and r/CatsWithJobs (because cats being more productive than us is hilarious). Long story short, I build web solutions. </div>
                 </div>
             </div>
 

@@ -9,6 +9,8 @@ import librarySnap from '../../assets/LibrarySnap.png'
 import translatorSnap from '../../assets/TranslatorSnap.png'
 import bingoSnap from '../../assets/BingoSnap.png'
 import newsmanSnap from '../../assets/NewsmanSnap.png'
+import pdfgpt from '../../assets/pdfgpt.png'
+import diseasePred from '../../assets/diseasepred.png'
 export default function Projects() {
     
   const projects = [
@@ -18,12 +20,12 @@ export default function Projects() {
       quote: "A personal portfolio website showcasing my work, skills, projects and contact details with smooth animations.",
       src: portfolioSnap, 
     },
-    // {
-    //   name: "Blogger",
-    //   designation: "MongoDB, Django",
-    //   quote: "Web application that allows users to create, update, and delete blog posts.",
-    //   src: portfolioSnap,
-    // },
+    {
+      name: "PdfGPT",
+      designation: "LangChain, FastAPI, React",
+      quote: "Full-stack application that lets users ask questions about their PDFs using AI.",
+      src: pdfgpt,
+    },
     {
       name: "NewsMan",
       designation: "React, Node, Bootstrap",
@@ -43,17 +45,18 @@ export default function Projects() {
         src: passwordmanagerSnap,
       },
       {
+        name: "Multi-Disease Prediction System",
+        designation: "React, Express, Python",
+        quote: "A web-based machine learning system to predict Heart Disease, Diabetes, and Parkinson’s Disease using clinical data.",
+        src: diseasePred,
+      },
+      {
         name: "Library Management System",
         designation: "FastAPI, MongoDB, Jinja templates",
         quote: "A platform that manages and simplifies library operations.",
         src: librarySnap,
       },
-      // {
-      //   name: "Web-Scraper",
-      //   designation: "Beautiful Soup",
-      //   quote: "Description",
-      //   src: webscraperSnap,
-      // },
+     
       {
         name: "Translator",
         designation: "Django, googleTrans",
